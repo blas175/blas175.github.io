@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-
+#Hellot statu
 # Setup SQLite database URI
 app.config["SQLALCHEMY_DATABASE_URI"] = (
     "sqlite:///users.db"  # SQLite file in the current directory
